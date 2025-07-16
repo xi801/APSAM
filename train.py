@@ -95,7 +95,7 @@ def main():
     #         else:
     #             new_state_dict[k] = v
     #     # model.load_state_dict(new_state_dict)
-    #     model.load_state_dict(new_state_dict, strict=False) #类别对不上，不能强行对齐参数
+    #     model.load_state_dict(new_state_dict, strict=False)
 
     model.to(device)
     if opt.pre_trained:
@@ -183,8 +183,8 @@ def main():
                         param_group['lr'] = lr_
             iter_num = iter_num + 1
 
-            # #  --------------------------------------------------------- 调试eval ---------------------------------------------------------
-            # if batch_idx % 10 == 0:  # 每10个batch进行一次eval调试
+            # #  --------------------------------------------------------- eval ---------------------------------------------------------
+            # if batch_idx % 10 == 0:
             #     model.eval()
             #     _, mean_dice, _, mean_iou, mean_acc, val_losses = get_eval(valloader, model, criterion=criterion, opt=opt, args=args)
             #     print(f"During training - Dice: {mean_dice}, mIoU: {mean_iou}, mAcc: {mean_acc}")
