@@ -49,6 +49,11 @@ pip install -r requirements.txt
 
 We make apsam's checkpoint public after the paper has been accepted!
 
+## Training
+```python
+python train.py --modelname APSAM
+```
+
 ---
 
 
