@@ -51,7 +51,7 @@ We make apsam's checkpoint public after the paper has been accepted!
 
 ## Training
 ```python
-cd "/home/...  .../APSAM/"
+cd APSAM
 python train.py --modelname APSAM --task <your dataset config name>
 ```
 
