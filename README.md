@@ -70,7 +70,5 @@ python train.py --modelname APSAM --task <your dataset config name>
 ---
 
 ## Acknowledgement
-We thank the authors of  
-**[SAMUS:Adapting Segment Anything Model for Clinically-Friendly and
- Generalizable Ultrasound Image Segmentation](https://arxiv.org/abs/2309.06824)** (Lin et al., *MICCAI 2024*)  
+We thank the authors of  **[Beyond Adapting SAM: Towards End-to-End Ultrasound Image Segmentation via Auto Prompting](https://arxiv.org/abs/2309.06824)** (Lin et al., *MICCAI 2024*) 
 for open-sourcing their code and for helpful discussions.
