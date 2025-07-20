@@ -13,9 +13,9 @@
 ---
 
 ## 1. Dataset
-Due to various protocol restrictions and security controls, if you need the data source files, please contact the author at the author's email address and we will respond and send the data source files within a few business days. We will disclose the author's e-mail address after the paper has been accepted.
-
-We will post the download link after the paper has been accepted!
+## Download
+[Download here](https://pan.baidu.com/s/1uVOmNCcsWE_w_pEEEMhAEQ)  
+Access code: `8tsu`
 
 ## Additional version
 We provide researchers with a fine-grained categorized version of the semantic segmentation of Xseg, a total of 32 categories of common contraband, the figure shows only part of the data example, called Xseg-semangtic, if you need it, you can contact the author to get it.<br>
@@ -64,3 +64,13 @@ python train.py --modelname APSAM --task <your dataset config name>
 * [√] Making XSeg public
 * [√] Provide training and testing code for APSAM.
 * [×] Checkpoints for APSAM will be made public.
+
+
+
+---
+
+## Acknowledgement
+We thank the authors of  
+**[SAMUS:Adapting Segment Anything Model for Clinically-Friendly and
+ Generalizable Ultrasound Image Segmentation](https://arxiv.org/abs/2309.06824)** (Lin et al., *MICCAI 2024*)  
+for open-sourcing their code and for helpful discussions.
