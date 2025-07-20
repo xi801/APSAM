@@ -22,7 +22,6 @@ We provide researchers with a fine-grained categorized version of the semantic s
 
 
 ![Semantic](./sample_img/semanticdemo.png "Placeholder for XSeg Benchmark Image")
-
 ## DATA Pipeline
 We provide a reasonable pipeline for contraband dataset construction to build high-quality datasets and design a model Adaptive Point SAM (APSAM) specifically for contraband segmentation annotation task. APSAM is user-friendly enough and has superior segmentation performance.
 
